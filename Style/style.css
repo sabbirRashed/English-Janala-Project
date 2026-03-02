@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.bangla-shiliguri{
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.tiro-bangla{
+    font-family: "Tiro Bangla", serif;
+}
