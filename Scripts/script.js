@@ -54,38 +54,6 @@ const loadWordDetails = async (id) => {
     displayWordDetails(details.data);
 }
 
-// {word: 'Eager', meaning: 'আগ্রহী', pronunciation: 'ইগার', level: 1, sentence: 'The kids were eager to open their gifts.', …}
-// id
-// : 
-// 5
-// level
-// : 
-// 1
-// meaning
-// : 
-// "আগ্রহী"
-// partsOfSpeech
-// : 
-// "adjective"
-// points
-// : 
-// 1
-// pronunciation
-// : 
-// "ইগার"
-// sentence
-// : 
-// "The kids were eager to open their gifts."
-// synonyms
-// : 
-// (3) ['enthusiastic', 'excited', 'keen']
-// word
-// : 
-// "Eager"
-// [[Prototype]]
-// : 
-// Object
-
 const displayWordDetails = (word) => {
     console.log(word);
     const detailsContainer = document.getElementById("details-container");
@@ -188,6 +156,7 @@ document.getElementById("btn-search")
         removeActive();
         const inputFiled = document.getElementById("input-search");
         const searchValue = inputFiled.value.trim().toLowerCase();
+        inputFiled.value = "";
 
         const url = "https://openapi.programming-hero.com/api/words/all";
         fetch(url)
@@ -197,6 +166,7 @@ document.getElementById("btn-search")
                 const allWords = data.data;
                 const filterWords = allWords.filter((word) => word.word.toLowerCase().includes(searchValue));
                 displayLevelWord(filterWords);
+                
             });
 
     })
