@@ -14,10 +14,10 @@
 ## 📸 Preview
 
 ### Home Page
-![Home Page](./assets/englishJanala.png)
+![Home Page](./assets/home.png)
 
 ### Vocabulary Section
-![Vocabulary](./essets/vocabulary.png)
+![Vocabulary](./assets/vocabulary.png)
 
 ### Word Details Modal
 ![Modal](./assets/word-details.png)
