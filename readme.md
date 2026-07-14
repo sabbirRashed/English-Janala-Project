@@ -13,15 +13,15 @@
 
 ## 📸 Preview
 
-> Add screenshots of your homepage and vocabulary section here.
+### Home Page
+![Home Page](./assets/englishJanala.png)
 
-```
-assets/
-├── preview-home.png
-└── preview-vocabulary.png
-```
+### Vocabulary Section
+![Vocabulary](./essets/vocabulary.png)
 
----
+### Word Details Modal
+![Modal](./assets/word-details.png)
+
 
 # ✨ Features
 
@@ -78,33 +78,6 @@ English-Janala/
 
 ---
 
-# 🔗 API Endpoints
-
-### Get All Lessons
-
-```
-GET /api/levels/all
-```
-
-### Get Words by Lesson
-
-```
-GET /api/level/{lessonId}
-```
-
-### Get Word Details
-
-```
-GET /api/word/{wordId}
-```
-
-### Get All Words
-
-```
-GET /api/words/all
-```
-
----
 
 # 🎯 Future Improvements
 
@@ -121,7 +94,7 @@ GET /api/words/all
 
 **Md. Sabbir Rahman**
 
-Mathematics Student • Frontend Developer
+Mathematics Student • MERN Stack Developer
 
 * GitHub: https://github.com/sabbirRashed
 * LinkedIn: www.linkedin.com/in/sabbirrahman
